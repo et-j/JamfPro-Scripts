@@ -110,7 +110,7 @@ fi
 
 ########################################
 # Check for admin - if user does not   #
-# have admin rights, promote for 15m.  #
+# have admin rights, promote for 5m.  #
 ########################################
 
 if [[ `/usr/bin/dscl . read /Groups/admin GroupMembership | /usr/bin/grep -c $userName` == 1 ]]; then
